@@ -7,10 +7,8 @@ s = 0
 for i in range(n):
     p = int(input())
     f = int(input())
-    
-    totalp = p*5
-    totalf = f*3
-    totals = totalp - totalf
+
+    totals = (p*5) - (f*3)
     
     if totals > 40:
         s += 1
